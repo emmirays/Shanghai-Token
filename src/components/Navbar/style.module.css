@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 43px;
+  width: 87%;
+  height: 98px;
+  margin: 43px auto 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: rgba(123, 0, 242, 0.05);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 76px;
+  z-index: 99999;
+}
+
+.links {
+  width: 648.62px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.2661px;
+  color: var(--white);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+@media (max-width: 768px){
+  .links a{
+    font-size: 18px;
+  }
+}

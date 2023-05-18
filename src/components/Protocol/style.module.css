@@ -1,0 +1,74 @@
+.protocol {
+  margin-top: 179px;
+  /* margin-bottom: 179px; */
+  position: relative;
+  z-index: 1;
+}
+
+.protocol h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 107.1%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.protocol .txt {
+  padding: 0 250px;
+}
+
+.protocol .txt p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 107.1%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.protocol .txt p:nth-child(1) {
+  margin-bottom: 40px;
+}
+
+.protocol .txt p:nth-child(2) {
+  margin-bottom: 217px;
+}
+
+.protocol img {
+  position: absolute;
+  top: 69px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width: 1280px){
+  .protocol img{
+    top: 123px; 
+  }
+
+  .protocol .txt{
+    padding: 0 91px;
+  }
+}
+
+@media (max-width: 768px){
+  .protocol h1{
+    font-size: 35px;
+  }
+  .protocol .txt p{
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .protocol .txt p:nth-child(2){
+    margin-bottom: 159px;
+  }
+  .protocol img{
+    top: 130px;
+    width: 500px;
+    height: inherit;
+  }
+}

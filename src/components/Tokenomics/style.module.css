@@ -1,0 +1,33 @@
+.tokenomics{
+  margin-top: 250px;
+}
+
+.tokenomics .h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 64px;
+}
+
+.tokenomics .flex{
+  display: flex;
+  justify-content: center;
+  gap: 60px;  
+}
+
+@media (max-width: 768px) {
+  .tokenomics{
+    padding: 0 30px;
+  }
+  .tokenomics .h1{
+    font-size: 35px !important;
+    margin-bottom: 46px;
+  }
+  .tokenomics .flex{
+    gap: 25px;
+
+  }
+}

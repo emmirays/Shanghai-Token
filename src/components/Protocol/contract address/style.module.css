@@ -1,0 +1,21 @@
+.conadd{
+    position: relative;
+}
+.conadd p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36.4px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.conadd p > span {
+  color: #8f1bff;
+}
+
+@media (max-width: 768px){
+  .conadd p{
+    font-size: 18px;
+  }
+}

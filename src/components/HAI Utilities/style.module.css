@@ -1,0 +1,62 @@
+.utilities {
+  margin-top: 150px;
+}
+
+.utilities h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 66px;
+}
+
+.utilities .list {
+  max-width: 727px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.utilities .list svg {
+  position: absolute;
+  top: 0;
+}
+
+.utilities .list .con {
+  position: relative;
+}
+
+.utilities .list .con:nth-child(2) {
+  padding: 59px 56px;
+}
+.utilities .list .con:nth-child(3) {
+  padding: 51px 56px;
+}
+.utilities .list .con:nth-child(4) {
+  padding: 33px 56px;
+}
+.utilities .list .con:nth-child(5) {
+  padding: 43px 56px;
+}
+
+@media (max-width: 768px) {
+  .utilities h1 {
+    font-size: 35px;
+  }
+  .utilities .list svg{
+    height: 700px;
+  }
+  .utilities .list .con:nth-child(2) {
+    padding: 32px 130px;
+  }
+  .utilities .list .con:nth-child(3) {
+    padding: 27px 130px;
+  }
+  .utilities .list .con:nth-child(4) {
+    padding: 13px 130px;
+  }
+  .utilities .list .con:nth-child(5) {
+    padding: 14px 130px;
+  }
+}

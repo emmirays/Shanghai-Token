@@ -1,0 +1,93 @@
+.card {
+  width: 403px;
+  height: 433px;
+  border-radius: 18px;
+  position: relative;
+}
+
+.con {
+  height: 99.5%;
+  width: 99.5%;
+  border-radius: 18px;
+  background: #070817;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.neon::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-image: linear-gradient(135.61deg, #29e8e7 0%, #3cf989 99.48%);
+  border-radius: 18px;
+}
+.sun::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-image: linear-gradient(135.61deg, #29e8e7 0%, #3cf989 99.48%);
+  border-radius: 18px;
+}
+
+.card img {
+  margin-top: 70px;
+}
+
+.card h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.card p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29.1667px;
+  line-height: 107.1%;
+  /* text-align: center; */
+  color: #ffffff;
+}
+
+.card p:nth-child(3) {
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 296px;
+    height: 326px;
+  }
+  .card .con h1 {
+    font-size: 30px;
+    margin-top: 15px;
+  }
+
+  .card .con p {
+    font-size: 18px;
+    line-height: 115%;
+  }
+  .card p:nth-child(3) {
+    margin-top: 17px;
+  }
+  .card .con img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+  }
+}

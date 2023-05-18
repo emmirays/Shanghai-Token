@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 135px;
+  margin-top: 80px;
+}
+
+.footer p {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25.1231px;
+  color: #ffffff;
+}
+
+.footer p>a{
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+@media (max-width: 768px){
+  .footer{
+    padding: 32px 81px;
+  }
+  .footer p{
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,20 @@
+:root {
+  --white: #ffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  /* overflow-x: hidden; */
+  background: #090B1D;
+}
+
+a{
+  text-decoration: none;
+}
