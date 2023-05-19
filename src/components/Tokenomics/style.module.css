@@ -31,3 +31,17 @@
 
   }
 }
+
+@media (max-width: 481px){
+  .tokenomics{
+    padding: 0 70px;
+  }
+  .tokenomics .h1{
+    font-size: 30px !important;
+    margin-bottom: 25px;
+  }
+
+  .tokenomics .flex{
+    flex-direction: column;
+  }
+}

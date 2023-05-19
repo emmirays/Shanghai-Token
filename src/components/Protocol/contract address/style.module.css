@@ -19,3 +19,11 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 481px){
+  .conadd p{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -14,7 +14,7 @@
   color: #ffffff;
 }
 
-.footer p>a{
+.footer p > a {
   text-decoration: underline;
   color: #ffffff;
 }
@@ -25,11 +25,22 @@
   gap: 17px;
 }
 
-@media (max-width: 768px){
-  .footer{
+@media (max-width: 768px) {
+  .footer {
     padding: 32px 81px;
   }
-  .footer p{
+  .footer p {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 481px) {
+  .footer {
+    padding: 32px 50px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer p {
+    font-size: 16px;
   }
 }

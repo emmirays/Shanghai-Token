@@ -1,23 +1,40 @@
 import Image from "next/image";
 import styles from "./style.module.css";
-import Logo from "/public/logo.svg"
+import Logo from "/public/logo.svg";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [expanded, setExpanded] = useState(false);
+
+  const handleToggle = () => {
+    setExpanded(!expanded);
+  };
   return (
     <>
-      <nav className={styles.nav}>
-        <Link href="/">
-          <Image src={Logo} width={64} height={64} quality={100} priority={true} alt="" />
-        </Link>
-        <div className={styles.links}>
+      <nav className={`${styles.nav} ${expanded ? styles.expanded : ""}`}>
+        <div className={styles.logo}>
+          <Link href="/">
+            <Image
+              src={Logo}
+              width={64}
+              height={64}
+              quality={100}
+              priority={true}
+              alt=""
+            />
+          </Link>
+        </div>
+        <div className={`${styles.links} ${expanded ? styles.showLinks : ""}`}>
           <Link href="/">About</Link>
           <Link href="/">Tokenomics</Link>
           <Link href="/">Contract</Link>
           <Link href="/">Chart</Link>
           <Link href="/">Contact</Link>
         </div>
-        <div className={styles.socials}>
+        <div
+          className={`${styles.socials} ${expanded ? styles.showSocials : ""}`}
+        >
           <a href="#">
             <svg
               width="19"
@@ -60,6 +77,18 @@ export default function Navbar() {
               />
             </svg>
           </a>
+        </div>
+        <div className={styles.hamburger} onClick={handleToggle}>
+          <div
+            className={`${styles.line} ${expanded ? styles.line1 : ""}`}
+          ></div>
+          <div
+            className={`${styles.line} ${expanded ? styles.line2 : ""}`}
+          ></div>
+          <div
+            className={`${styles.line} ${expanded ? styles.line3 : ""}`}
+          ></div>
+          <div className={styles.arrow_down}></div>
         </div>
       </nav>
     </>

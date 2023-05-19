@@ -40,7 +40,7 @@
 
 .protocol img {
   position: absolute;
-  top: 69px;
+  top: 120px;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -71,4 +71,27 @@
     width: 500px;
     height: inherit;
   }
+}
+
+@media (max-width: 481px){
+  .protocol h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .protocol .txt{
+    padding: 0 40px;
+  }
+  .protocol .txt p{
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .protocol .txt p:nth-child(2){
+    margin-bottom: 100px;
+  }
+  .protocol img{
+    top: 170px;
+    width: 450px;
+    height: inherit;
+  }
+  
 }

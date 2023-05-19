@@ -60,3 +60,36 @@
     padding: 14px 130px;
   }
 }
+
+@media (max-width: 481px){
+  .utilities{
+    margin: 150px auto 0;
+  }
+  .utilities h1 {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+  .utilities .list svg{
+    height: 500px;
+    display: none;
+  }
+  .utilities .list .con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .utilities .list .con:nth-child(2) {
+    padding: 20px 30px;
+  }
+  .utilities .list .con:nth-child(3) {
+    padding: 20px 30px;
+  }
+  .utilities .list .con:nth-child(4) {
+    padding: 20px 30px;
+  }
+  .utilities .list .con:nth-child(5) {
+    padding: 20px 30px;
+  }
+}

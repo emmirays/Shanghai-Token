@@ -44,8 +44,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 353.39px;
-  height: 71.58px;
+  width: 300px;
+  height: 60px;
   background: #7b00f2;
   border-radius: 6.14593px;
   border: none;
@@ -112,5 +112,24 @@
   .main .hero img {
     bottom: -91px;
     right: 30px;
+  }
+}
+
+@media (max-width: 481px){
+  .main .hero .txt h1{
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .main .hero .txt p{
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .main .hero .txt button{
+    font-size: 18px;
+    
+  }
+  .main .hero img{
+    bottom: -212px;
   }
 }
