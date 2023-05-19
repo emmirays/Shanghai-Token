@@ -201,6 +201,10 @@
 }
 
 @media (max-width: 481px){
+  .nav img{
+    width: 55px;
+    height: 55px;
+  }
 
   .links::before{
     width: 70%;
