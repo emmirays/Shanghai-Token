@@ -88,7 +88,6 @@ export default function Navbar() {
           <div
             className={`${styles.line} ${expanded ? styles.line3 : ""}`}
           ></div>
-          <div className={styles.arrow_down}></div>
         </div>
       </nav>
     </>

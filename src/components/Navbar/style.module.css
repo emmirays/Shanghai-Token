@@ -78,9 +78,9 @@
   padding: 20px;
 }
 
-/* .logo {
+.logo {
   flex: 1;
-} */
+}
 
 .links {
   display: flex;
@@ -136,35 +136,54 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-.arrow_down {
-  width: 29px;
-  height: 20px;
-  background-image: url("/down-arrow.png"); /* Replace with your arrow down icon */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  transition: transform 0.3s ease;
-}
-
 @media (max-width: 768px) {
   .links {
     display: none;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    align-items: flex-end;
+    padding-right: 7px;
+    width: 100%;
+    z-index: 999999;
+  }
+
+  .links::before {
+    content: "";
+    position: absolute;
+    background: rgb(121, 0, 242);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    width: 50%;
+    top: -30px;
+    border-radius: 30px;
+    right: 0;
+    height: 300px;
+    z-index: 1;
   }
 
   .links a {
     padding: 5px 0;
+    position: relative;
+    z-index: 1;
+    width: fit-content;
   }
 
   .socials {
     display: none;
     margin-right: 15px;
+    position: absolute;
+    top: 400px;
+    left: 49%;
+    transform: translate(-50%, 0);
+    z-index: 999999;
+    top: 366px;
+    left: 90%;
   }
 
   .hamburger {
     display: flex;
-  }
-  .arrow_down {
-    display: none;
   }
 
   .expanded {
@@ -178,69 +197,17 @@
 
   .expanded .socials {
     display: flex;
-    flex-direction: column;
   }
 }
 
-@media (max-width: 481px) {
-  .nav {
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 481px){
+
+  .links::before{
+    width: 70%;
   }
 
-  .logo {
-    margin-bottom: 10px;
-  }
-
-  .links,
-  .socials {
-    display: none;
-  }
-
-  .links {
-    width: fit-content;
-  }
-
-  .links a {
-    font-size: 18px;
-  }
-
-  .links a,
-  .socials {
-    margin: 0;
-  }
-
-  .arrow_down {
-    display: block;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .hamburger .line {
-    display: none;
-  }
-
-  /* .hamburger .arrow_down {
-    transform: rotate(180deg);
-  } */
-
-  .expanded {
-    height: auto;
-    overflow: hidden;
-    transition: height 0.3s ease;
-  }
-
-  .expanded .links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .expanded .socials {
-    flex-direction: row;
-    margin: 20px 0;
+  .socials{
+    top: 366px;
+    left: 85%;
   }
 }
