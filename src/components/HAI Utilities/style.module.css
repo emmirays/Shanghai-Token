@@ -3,7 +3,7 @@
 }
 
 .utilities h1 {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -44,7 +44,7 @@
   .utilities h1 {
     font-size: 35px;
   }
-  .utilities .list svg{
+  .utilities .list svg {
     height: 700px;
   }
   .utilities .list .con:nth-child(2) {
@@ -61,19 +61,19 @@
   }
 }
 
-@media (max-width: 481px){
-  .utilities{
+@media (max-width: 481px) {
+  .utilities {
     margin: 150px auto 0;
   }
   .utilities h1 {
     font-size: 30px;
     margin-bottom: 35px;
   }
-  .utilities .list svg{
+  .utilities .list svg {
     height: 500px;
     display: none;
   }
-  .utilities .list .con{
+  .utilities .list .con {
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,8 +1,8 @@
-.conadd{
-    position: relative;
+.conadd {
+  position: relative;
 }
 .conadd p {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 36.4px;
@@ -14,14 +14,14 @@
   color: #8f1bff;
 }
 
-@media (max-width: 768px){
-  .conadd p{
+@media (max-width: 768px) {
+  .conadd p {
     font-size: 18px;
   }
 }
 
-@media (max-width: 481px){
-  .conadd p{
+@media (max-width: 481px) {
+  .conadd p {
     font-size: 13px;
     display: flex;
     flex-direction: column;

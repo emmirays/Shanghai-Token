@@ -1,9 +1,9 @@
-.tokenomics{
-  margin-top: 250px;
+.tokenomics {
+  padding-top: 230px;
 }
 
 .tokenomics .h1 {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -12,36 +12,35 @@
   margin-bottom: 64px;
 }
 
-.tokenomics .flex{
+.tokenomics .flex {
   display: flex;
   justify-content: center;
-  gap: 60px;  
+  gap: 60px;
 }
 
 @media (max-width: 768px) {
-  .tokenomics{
-    padding: 0 30px;
+  .tokenomics {
+    padding: 230px 30px 0;
   }
-  .tokenomics .h1{
+  .tokenomics .h1 {
     font-size: 35px !important;
     margin-bottom: 46px;
   }
-  .tokenomics .flex{
+  .tokenomics .flex {
     gap: 25px;
-
   }
 }
 
-@media (max-width: 481px){
-  .tokenomics{
-    padding: 0 70px;
+@media (max-width: 481px) {
+  .tokenomics {
+    padding: 180px 70px 0;
   }
-  .tokenomics .h1{
+  .tokenomics .h1 {
     font-size: 30px !important;
     margin-bottom: 25px;
   }
 
-  .tokenomics .flex{
+  .tokenomics .flex {
     flex-direction: column;
   }
 }

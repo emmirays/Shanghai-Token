@@ -6,7 +6,7 @@
 }
 
 .flex p {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 29.3022px;
@@ -15,7 +15,7 @@
 
 .desc {
   max-width: 592px;
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 25.1231px;
@@ -23,32 +23,32 @@
   color: #ffffff;
 }
 
-@media (max-width: 768px){
-  .flex{
+@media (max-width: 768px) {
+  .flex {
     margin-bottom: 20px;
   }
-  .flex p{
+  .flex p {
     font-size: 25px;
   }
-  .desc{
+  .desc {
     font-size: 18px;
     line-height: 130%;
   }
 }
 
-@media (max-width: 481px){
-  .flex{
+@media (max-width: 481px) {
+  .flex {
     margin-bottom: 7px;
     gap: 10px;
   }
-  .flex img{
+  .flex img {
     width: 35px;
     height: 35px;
   }
-  .flex p{
+  .flex p {
     font-size: 18px;
   }
-  .desc{
+  .desc {
     font-size: 16px;
   }
 }

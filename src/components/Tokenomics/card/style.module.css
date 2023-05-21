@@ -46,7 +46,7 @@
 }
 
 .card h1 {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -55,7 +55,7 @@
 }
 
 .card p {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 29.1667px;
@@ -92,20 +92,20 @@
   }
 }
 
-@media (max-width: 481px){
-  .card{
+@media (max-width: 481px) {
+  .card {
     width: 100%;
     height: 266px;
   }
-  .card img{
+  .card img {
     width: 70px !important;
     height: 70px !important;
     margin-top: 40px !important;
   }
-  .card h1{
+  .card h1 {
     font-size: 18px !important;
   }
-  .card p{
+  .card p {
     font-size: 16px !important;
   }
 }

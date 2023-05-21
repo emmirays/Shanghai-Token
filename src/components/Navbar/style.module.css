@@ -72,10 +72,6 @@
   }
 }
 
-.logo {
-  /* flex: 1; */
-}
-
 .links {
   display: flex;
   align-items: center;
@@ -136,6 +132,10 @@
     align-items: center;
     padding: 20px;
   }
+  .nav img{
+    position: relative;
+    z-index: 9999999;
+  }
   .links {
     display: none;
     position: absolute;
@@ -162,6 +162,16 @@
     z-index: 1;
   }
 
+  .links::after{
+    content: '';
+    width: 100vw;
+    right: -24px;
+    background: #00000079;
+    position: absolute;
+    height: 100vh;
+    top: -195px;
+  }
+
   .links a {
     padding: 5px 0;
     position: relative;
@@ -183,6 +193,8 @@
 
   .hamburger {
     display: flex;
+    position: relative;
+    z-index: 9999999;
   }
 
   .expanded {

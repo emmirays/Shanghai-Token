@@ -7,6 +7,7 @@
   /* display: flex; */
   padding: 250px 210px 0;
   position: relative;
+  
 }
 
 .main .hero .txt {
@@ -15,7 +16,7 @@
 }
 
 .main .hero .txt h1 {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 101.507px;
@@ -30,7 +31,7 @@
 }
 
 .main .hero .txt p {
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 27.1839px;
@@ -44,7 +45,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 220px;
   height: 60px;
   background: #7b00f2;
   border-radius: 6.14593px;
@@ -52,7 +53,7 @@
   outline: none;
   cursor: pointer;
 
-  font-family: "Space Grotesk";
+  font-family: "Space Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 19.0288px;
@@ -70,15 +71,15 @@
     padding: 250px 140px 0;
   }
 
-  .main .hero .txt h1{
+  .main .hero .txt h1 {
     font-size: 90px;
     line-height: 90px;
     max-width: 100%;
   }
 
-  .main .hero .txt p{
+  .main .hero .txt p {
     font-size: 23px;
-  line-height: 28px;
+    line-height: 28px;
   }
 
   .main .hero img {
@@ -91,22 +92,22 @@
   .main .hero {
     padding: 250px 30px 0;
   }
-  .main .hero .txt{
+  .main .hero .txt {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .main .hero .txt h1{
+  .main .hero .txt h1 {
     font-size: 80px;
     line-height: 90px;
     max-width: 100%;
     text-align: center;
   }
-  .main .hero .txt p{
+  .main .hero .txt p {
     font-size: 23px;
-  line-height: 28px;
-  text-align: center;
+    line-height: 28px;
+    text-align: center;
   }
 
   .main .hero img {
@@ -115,21 +116,20 @@
   }
 }
 
-@media (max-width: 481px){
-  .main .hero .txt h1{
+@media (max-width: 481px) {
+  .main .hero .txt h1 {
     font-size: 55px;
     line-height: 60px;
   }
-  .main .hero .txt p{
+  .main .hero .txt p {
     font-size: 18px;
     line-height: 20px;
   }
 
-  .main .hero .txt button{
+  .main .hero .txt button {
     font-size: 18px;
-    
   }
-  .main .hero img{
+  .main .hero img {
     bottom: -212px;
   }
 }

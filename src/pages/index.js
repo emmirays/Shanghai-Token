@@ -28,7 +28,7 @@ export default function Home() {
               Staking done right <span>Earning in sight</span>
             </h1>
             <p>Liquid staking with HAI while earning passive income.</p>
-            <button>Launch App (coming soon)</button>
+            <button>Launch App</button>
           </div>
           <Image
             src={Whirl}
