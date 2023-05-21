@@ -8,7 +8,7 @@ export default function Footer() {
       <Image src={Logo} width={63} height={63} quality={100} priority={true} alt="" />
       <p>Email: <a href="mailto:support@shanghaitoken.io">support@shanghaitoken.io</a></p>
       <div className={styles.socials}>
-          <a href="#">
+          <a href="https://twitter.com/ShanghaiToken">
             <svg
               width="19"
               height="17"
@@ -22,7 +22,7 @@ export default function Footer() {
               />
             </svg>
           </a>
-          <a href="#">
+          {/* <a href="#">
             <svg
               width="17"
               height="14"
@@ -35,8 +35,8 @@ export default function Footer() {
                 fill="white"
               />
             </svg>
-          </a>
-          <a href="#">
+          </a> */}
+          <a href="https://t.me/shanghaitoken">
             <svg
               width="20"
               height="20"
