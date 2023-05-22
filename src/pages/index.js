@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Shanghai Token</title>
+        <title>Shanghai</title>
         <meta
           name="description"
           content="Liquid staking with HAI while earning passive income."
