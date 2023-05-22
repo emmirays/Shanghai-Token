@@ -28,12 +28,24 @@
   font-weight: 400;
   font-size: 21.2661px;
   color: var(--white);
+  transition: all 0s;
+}
+
+.links a:hover{
+  color: #aa55ff;
+  transition: all .3s ease-in-out;
 }
 
 .socials {
   display: flex;
   align-items: center;
   gap: 17px;
+  transition: all 0s;
+}
+
+.socials a:hover svg path{
+  fill: #aa55ff;
+  transition: all .3s ease-in-out;
 }
 
 /* @media (max-width: 768px){
@@ -154,6 +166,9 @@
     background: rgb(121, 0, 242);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+      -webkit-box-shadow: 0px 0px 77px 6px rgba(121, 0, 242, 0.8);
+  -moz-box-shadow: 0px 0px 77px 6px rgba(121, 0, 242, 0.8);
+  box-shadow: 0px 10px 27px 1px rgba(121, 0, 242, 0.8);
     width: 50%;
     top: -30px;
     border-radius: 30px;

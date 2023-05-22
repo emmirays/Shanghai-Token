@@ -1,5 +1,5 @@
 .protocol {
-  margin-top: 179px;
+  padding-top: 179px;
   /* margin-bottom: 179px; */
   position: relative;
   z-index: 1;
@@ -40,14 +40,14 @@
 
 .protocol img {
   position: absolute;
-  top: 120px;
+  top: 307px;
   left: 50%;
   transform: translate(-50%, 0);
 }
 
 @media (max-width: 1280px) {
   .protocol img {
-    top: 123px;
+    top: 350px;
   }
 
   .protocol .txt {
@@ -67,7 +67,7 @@
     margin-bottom: 159px;
   }
   .protocol img {
-    top: 130px;
+    top: 340px;
     width: 500px;
     height: inherit;
   }
@@ -89,7 +89,7 @@
     margin-bottom: 100px;
   }
   .protocol img {
-    top: 170px;
+    top: 350px;
     width: 450px;
     height: inherit;
   }

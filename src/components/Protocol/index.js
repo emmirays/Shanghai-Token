@@ -4,7 +4,7 @@ import ContactAddress from "./contract address";
 
 export default function Protocol() {
   return (
-    <div className={styles.protocol}>
+    <div id="protocol" className={styles.protocol}>
       <h1>HAI Protocol</h1>
       <div className={styles.txt}>
         <p>

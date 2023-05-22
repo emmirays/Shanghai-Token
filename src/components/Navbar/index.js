@@ -26,8 +26,8 @@ export default function Navbar() {
           </Link>
         </div>
         <div className={`${styles.links} ${expanded ? styles.showLinks : ""}`}>
-          <Link href="/">About</Link>
-          <Link href="#tokenomics">Tokenomics</Link>
+          <Link onClick={handleToggle} href="#protocol">About</Link>
+          <Link onClick={handleToggle} href="#tokenomics">Tokenomics</Link>
           <Link href="https://etherscan.io/token/0xdd34ab9b1450156928bc05f8ac6bf82af3d96519">Contract</Link>
           <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0x39FEB606472587adE8BD26Bbe4F758ed0Cf83066">Chart</Link>
           <Link href="https://t.me/shanghaitoken">Contact</Link>
