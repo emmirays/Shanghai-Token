@@ -52,11 +52,6 @@
   transition: all 0.3s ease-in-out;
 }
 
-/* @media (max-width: 768px){
-  .links a{
-    font-size: 18px;
-  }
-} */
 
 @media (max-width: 768px) {
   .nav {
@@ -259,6 +254,6 @@
 
   .socials {
     top: 366px;
-    left: 85%;
+    left: 82%;
   }
 }
