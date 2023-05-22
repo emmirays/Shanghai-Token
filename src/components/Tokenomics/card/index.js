@@ -2,7 +2,6 @@ import styles from "./style.module.css";
 import Image from "next/image";
 
 export default function Card({ img, type, treasury, liqudity, border }) {
-  const borderColor = border === "neon" ? styles.neon : undefined;
   return (
     <>
       {/* <div className={`${styles.card} ${styles}.${border}`}> */}
