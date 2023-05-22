@@ -25,6 +25,11 @@
   gap: 17px;
 }
 
+.socials a:hover svg path {
+  fill: #aa55ff;
+  transition: all 0.3s ease-in-out;
+}
+
 @media (max-width: 768px) {
   .footer {
     padding: 32px 81px;
