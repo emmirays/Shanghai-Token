@@ -4,8 +4,7 @@ import Image from "next/image";
 export default function Card({ img, type, treasury, liqudity, border }) {
   return (
     <>
-      {/* <div className={`${styles.card} ${styles}.${border}`}> */}
-        <div className={`${styles.card} ${styles.neon}`}>
+      <div className={`${styles.card} ${border}`}>
         <div className={styles.con}>
           <Image
             src={`/${img}.png`}

@@ -20,27 +20,6 @@
   transform: translate(-50%, -50%);
 }
 
-.neon::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-image: linear-gradient(135.61deg, #29e8e7 0%, #3cf989 99.48%);
-  border-radius: 18px;
-}
-.sun::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-image: linear-gradient(135.61deg, #29e8e7 0%, #3cf989 99.48%);
-  border-radius: 18px;
-}
-
 .card img {
   margin-top: 70px;
 }
