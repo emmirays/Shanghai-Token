@@ -68,12 +68,13 @@
   }
 
   .socials {
-    gap: 10px;
+    gap: 24px;
   }
 
   .socials a svg {
     width: 16px;
     height: 16px;
+    scale: 1.7;
   }
 }
 
@@ -85,6 +86,7 @@
   .socials a svg {
     width: 14px;
     height: 14px;
+    scale: 2;
   }
 }
 
@@ -167,11 +169,15 @@
     z-index: 999999;
   }
 
-  .links a:hover, .links a:focus, .links a:active {
+  .links a:hover,
+  .links a:focus,
+  .links a:active {
     color: rgb(255, 184, 91);
   }
 
-  .socials a:hover svg path, .socials a:focus svg path {
+  .socials a:hover svg path,
+  .socials a:focus svg path,
+  .socials a:active svg path {
     fill: rgb(255, 184, 91);
   }
 
