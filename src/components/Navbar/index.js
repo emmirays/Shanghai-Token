@@ -32,6 +32,7 @@ export default function Navbar() {
           <Link href="https://www.dextools.io/app/en/ether/pair-explorer/0x39FEB606472587adE8BD26Bbe4F758ed0Cf83066">Chart</Link>
           <Link href="https://t.me/shanghaitoken">Contact</Link>
         </div>
+        <div onClick={handleToggle} className={expanded ? styles.box : ""}></div>
         <div
           className={`${styles.socials} ${expanded ? styles.showSocials : ""}`}
         >

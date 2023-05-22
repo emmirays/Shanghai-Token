@@ -31,9 +31,9 @@
   transition: all 0s;
 }
 
-.links a:hover{
+.links a:hover {
   color: #aa55ff;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .socials {
@@ -43,9 +43,9 @@
   transition: all 0s;
 }
 
-.socials a:hover svg path{
+.socials a:hover svg path {
   fill: #aa55ff;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 /* @media (max-width: 768px){
@@ -144,7 +144,7 @@
     align-items: center;
     padding: 20px;
   }
-  .nav img{
+  .nav img {
     position: relative;
     z-index: 9999999;
   }
@@ -166,9 +166,9 @@
     background: rgb(121, 0, 242);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-      -webkit-box-shadow: 0px 0px 77px 6px rgba(121, 0, 242, 0.8);
-  -moz-box-shadow: 0px 0px 77px 6px rgba(121, 0, 242, 0.8);
-  box-shadow: 0px 10px 27px 1px rgba(121, 0, 242, 0.8);
+    -webkit-box-shadow: 0px 0px 77px 6px rgba(121, 0, 242, 0.8);
+    -moz-box-shadow: 0px 0px 77px 6px rgba(121, 0, 242, 0.8);
+    box-shadow: 0px 10px 27px 1px rgba(121, 0, 242, 0.8);
     width: 50%;
     top: -30px;
     border-radius: 30px;
@@ -177,14 +177,14 @@
     z-index: 1;
   }
 
-  .links::after{
-    content: '';
-    width: 100vw;
-    right: -24px;
+  .box {
+    content: "";
+    width: 110vw;
+    right: -52px;
     background: #00000079;
     position: absolute;
-    height: 100vh;
-    top: -195px;
+    height: 110vh;
+    top: -45px;
   }
 
   .links a {
