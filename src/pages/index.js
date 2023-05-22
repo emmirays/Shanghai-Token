@@ -57,6 +57,7 @@ console.log(
   "💼 Find me on LinkedIn: Emmanuel Oyiboke (https://www.linkedin.com/in/emmanuel-oyiboke/) Let's expand our professional networks and explore potential synergies. 🤝\n\n" +
   "💻 Check out my GitHub: @emmirays (https://github.com/emmirays) I'd love to showcase my projects and collaborate on open source initiatives with you! 🌐\n\n" +
   "📲 You can also reach me on Telegram: @devrays (https://t.me/devrays) Feel free to drop me a message, and let's dive into fascinating tech discussions! 💬\n\n" +
+  "💡 Landing Page Built by Emmanuel Oyiboke for Shanghai Token \n\n" +
 
   "Made with ❤️ by Emmanuel Oyiboke.",
 );
