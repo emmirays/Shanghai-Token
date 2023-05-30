@@ -7,7 +7,7 @@ export default function Utilities() {
       <h1>HAI Utilities</h1>
       <div className={styles.list}>
         <svg
-          width="fit-content"
+          width="100%"
           height="954"
           viewBox="0 0 729 954"
           fill="none"
@@ -16,7 +16,7 @@ export default function Utilities() {
           <path
             d="M728 1H25C11.7452 1 1 11.7452 1 25V229.36C1 242.615 11.7452 253.36 25 253.36H704C717.255 253.36 728 264.105 728 277.36V475.129C728 488.383 717.255 499.129 704 499.129H25C11.7452 499.129 1 509.874 1 523.129V707.714C1 720.969 11.7452 731.714 25 731.714H704C717.255 731.714 728 742.459 728 755.714V929C728 942.255 717.255 953 704 953H1"
             stroke="#7B00F2"
-            stroke-width="2"
+            strokeWidth="2"
           />
         </svg>
         <div className={styles.con}>
